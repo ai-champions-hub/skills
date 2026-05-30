@@ -24,3 +24,11 @@ Step-by-step instructions for the AI. Write these as if you're briefing a sharp 
 ### Output
 
 <!-- Paste the expected output for the input above -->
+
+---
+
+## Source
+
+<!-- If this skill is based on an external source, add attribution here:
+Initial raw source: [repo-name](https://github.com/...)
+-->

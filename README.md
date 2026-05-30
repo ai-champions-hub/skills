@@ -1,199 +1,135 @@
-<div align="center">
+# AI Champions — Skill Library
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
-  <img alt="AI Champions — Skill Library" src="assets/banner.svg" width="100%">
-</picture>
-
-<br>
-<br>
+<p align="center">
+  <img src="assets/banner.svg" alt="AI Champions Skill Library" width="100%">
+</p>
 
 **One file. One skill. Drop it into Cursor, Claude, or ChatGPT and go.**
 
-[![Skills](https://img.shields.io/badge/skills-6-00d26a?style=for-the-badge)](https://github.com/ai-champions-hub/skills)
-[![Platform](https://img.shields.io/badge/platform-AI%20Champions-1a1a2e?style=for-the-badge)](https://ai-champions-platform.vercel.app)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-00b4d8?style=for-the-badge)](CONTRIBUTING.md)
-
-</div>
-
-<br>
-
-This repo is the open catalog of reusable AI skills maintained by the [AI Champions](https://ai-champions-platform.vercel.app) community. Each skill is a self-contained `.md` file with instructions that turn a general-purpose AI into a specialist for a specific task.
-
-New skills are added weekly from live sessions and the conference archive.
+This repo is the open catalog of curated AI skills maintained by the [AI Champions](https://ai-champions-platform.vercel.app) community. Each skill is a self-contained `.md` file with instructions that turn a general-purpose AI into a specialist for a specific task.
 
 ---
 
-<br>
+## Quick start
 
-## ⚡ Quick start
+1. Browse the catalog below
+2. Open the `.md` file and copy its contents (or download the raw file)
+3. Paste into Cursor rules, Claude project instructions, or a ChatGPT custom GPT
 
-<table>
-<tr>
-<td width="60" align="center"><h2>1</h2></td>
-<td><strong>Browse</strong> the skill catalog below and pick a skill</td>
-</tr>
-<tr>
-<td align="center"><h2>2</h2></td>
-<td><strong>Copy</strong> the <code>.md</code> file contents or download the raw file</td>
-</tr>
-<tr>
-<td align="center"><h2>3</h2></td>
-<td><strong>Load</strong> it into your AI tool of choice</td>
-</tr>
-</table>
+**Cursor** — save the `.md` file to your project's `.cursor/rules/` directory or `~/.cursor/rules/` for global access.
 
-<br>
+**Claude** — paste the contents into Project Knowledge or use it as a system prompt.
 
-<details>
-<summary><strong>📋 Setup instructions per tool</strong></summary>
-<br>
-
-| Tool | How to load a skill |
-|------|-------------------|
-| **Cursor** | Save the `.md` file to `.cursor/rules/` in your project (or `~/.cursor/rules/` for global access) |
-| **Claude** | Paste into Project Knowledge or use as a system prompt |
-| **ChatGPT** | Paste into Custom Instructions or send as the first message |
-
-</details>
-
-<br>
+**ChatGPT** — paste into Custom Instructions or as the first message in a conversation.
 
 ---
 
-<br>
+## Foundations
 
-## 📚 Skill catalog
+Core frameworks and plugins that you install once. These underpin everything else — they change how the AI agent works, not just what it knows.
 
-### 🟢 Productivity
+| Tool | What it does |
+|------|-------------|
+| [superpowers.md](foundations/superpowers.md) | Composable skill framework — enforces brainstorm → plan → execute → review |
+| [get-shit-done.md](foundations/get-shit-done.md) | Splits projects into plan/execute/review phases with fresh context windows |
+| [composio.md](foundations/composio.md) | MCP integration for 500+ external services (Gmail, Slack, Notion, etc.) |
+| [deep-research.md](foundations/deep-research.md) | 8-phase research pipeline with source credibility scoring |
+| [nuwa.md](foundations/nuwa.md) | Build virtual copies of experts — extract mental models into reusable skills |
 
-<table>
-<tr>
-<td width="400">
+## Skills
 
-**[weekly-metrics-narrator.md](productivity/weekly-metrics-narrator.md)**
-<br>
-<sub>KPI dashboard → narrated update</sub>
+### Product Management
 
-</td>
-<td width="400">
+| Skill | What it does |
+|-------|-------------|
+| [write-spec-prd.md](product-management/write-spec-prd.md) | Problem statement → full PRD with goals, user stories, and acceptance criteria |
+| [prd-critique.md](product-management/prd-critique.md) | Existing PRD → structured feedback with rubric scores and specific fixes |
+| [okr-coach.md](product-management/okr-coach.md) | Draft or existing OKRs → critique, refinement, and lifecycle management |
 
-**[meeting-notes-to-memo.md](productivity/meeting-notes-to-memo.md)**
-<br>
-<sub>Transcript → exec-ready memo</sub>
+### Marketing
 
-</td>
-</tr>
-<tr>
-<td>
+| Skill | What it does |
+|-------|-------------|
+| [marketing-skills-bundle.md](marketing/marketing-skills-bundle.md) | 42-skill marketing toolkit: CRO, copywriting, SEO, ads, email, retention |
+| [linkedin-voice-writer.md](marketing/linkedin-voice-writer.md) | Your voice + a topic → human-sounding LinkedIn posts using proven hook formulas |
 
-**[brief-from-scratch.md](productivity/brief-from-scratch.md)**
-<br>
-<sub>Raw idea → polished one-pager</sub>
+### Productivity
 
-</td>
-<td>
-<sub><em>More coming soon</em></sub>
-</td>
-</tr>
-</table>
+| Skill | What it does |
+|-------|-------------|
+| [stakeholder-update.md](productivity/stakeholder-update.md) | Working notes → polished stakeholder-ready status update |
+| [meeting-transcript-to-notes.md](productivity/meeting-transcript-to-notes.md) | Raw transcript → structured notes with decisions, action items, and summary |
+| [pyramid-principle-memo.md](productivity/pyramid-principle-memo.md) | Topic + arguments → strategic memo using Barbara Minto's Pyramid Principle |
 
-### 🔵 Communication
+### Presentations
 
-<table>
-<tr>
-<td width="400">
+| Skill | What it does |
+|-------|-------------|
+| [frontend-slides.md](presentations/frontend-slides.md) | Topic or content → beautiful slide deck as a single HTML file |
 
-**[objection-handler.md](communication/objection-handler.md)**
-<br>
-<sub>Draft responses to tough objections</sub>
+### Leadership
 
-</td>
-<td width="400">
-<sub><em>More coming soon</em></sub>
-</td>
-</tr>
-</table>
+| Skill | What it does |
+|-------|-------------|
+| [decision-stress-test.md](leadership/decision-stress-test.md) | Decision or idea → rigorous challenge against cognitive biases |
+| [interview-coach.md](leadership/interview-coach.md) | Interview prep, transcript analysis, and practice drills with STAR/CAR scoring |
 
-### ⚙️ Engineering
+### Design
 
-<table>
-<tr>
-<td width="400">
-
-**[agent-deploy-checklist.md](engineering/agent-deploy-checklist.md)**
-<br>
-<sub>Ship an agent to prod in 45 min</sub>
-
-</td>
-<td width="400">
-
-**[orchestration-planner.md](engineering/orchestration-planner.md)**
-<br>
-<sub>Multi-agent task graph from a goal</sub>
-
-</td>
-</tr>
-</table>
-
-### 📣 Marketing
-
-<table>
-<tr>
-<td width="400">
-<sub><em>Coming soon — contribute the first one!</em></sub>
-</td>
-<td width="400">
-</td>
-</tr>
-</table>
-
-<br>
+| Skill | What it does |
+|-------|-------------|
+| [figma-review.md](design/figma-review.md) | Figma file → structured design review with comments posted directly into Figma |
 
 ---
 
-<br>
+## Extended resources
 
-## 🧩 Skill format
+Looking for more skills beyond this catalog? See **[RESOURCES.md](RESOURCES.md)** — a curated list of 30+ external repositories and aggregators organized by domain (PM, marketing, knowledge work, sales, finance, and more).
 
-Every skill follows a consistent structure — see [`SKILL_TEMPLATE.md`](SKILL_TEMPLATE.md):
+---
+
+## Skill format
+
+Every skill follows a consistent structure (see [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md)):
 
 ```
 # Skill name
 > One-line description of what it does
 
-## Context         ← when and why you'd use this
-## Instructions    ← step-by-step for the AI
-## Example         ← concrete input → output
-```
+## Context
+When and why you'd use this skill.
 
-<br>
+## Instructions
+Step-by-step instructions for the AI.
+
+## Example
+A concrete input/output example.
+
+## Source
+Link to the original source.
+```
 
 ---
 
-<br>
+## Contributing
 
-## 🤝 Contributing
-
-We welcome new skills from the community — see the full guide in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+We welcome new skills from the community. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 **TL;DR:**
 
-> **Fork** → copy `SKILL_TEMPLATE.md` into the right folder → rename to `kebab-case.md` → fill it in → **open a PR**
-
-<br>
+1. Fork this repo
+2. Copy `SKILL_TEMPLATE.md` into the right category folder
+3. Rename it using `kebab-case.md`
+4. Fill in the template
+5. Open a PR
 
 ---
 
-<br>
+## Links
 
-<div align="center">
+- [AI Champions Platform](https://ai-champions-platform.vercel.app) — sprint recordings, live sessions, community
+- [Skill Library on the web](https://ai-champions-platform.vercel.app/skills) — visual catalog with one-click copy
 
-**[AI Champions Platform](https://ai-champions-platform.vercel.app)** · **[Skill Library](https://github.com/ai-champions-hub/skills)** · **[Organization](https://github.com/ai-champions-hub)**
+---
 
-<br>
-
-<sub>Built by the <a href="https://github.com/ai-champions-hub">AI Champions</a> community</sub>
-
-</div>
+*Built by the [AI Champions](https://github.com/ai-champions-hub) community.*
