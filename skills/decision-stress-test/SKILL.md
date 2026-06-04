@@ -1,18 +1,11 @@
+---
+name: decision-stress-test
+description: Stress-test decisions, ideas, plans, and interpretations through constructive disagreement. Use when challenging assumptions, identifying weaknesses, or countering AI sycophancy before important decisions.
+---
+
 # Decision Stress-Test
 
 > A decision, plan, or idea → rigorous challenge against cognitive biases and opposing arguments.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `decision-stress-test` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/decision-stress-test into this project.
-```
-
-**Manual install:** copy [`skills/decision-stress-test/SKILL.md`](../skills/decision-stress-test/SKILL.md) to `.cursor/skills/decision-stress-test/SKILL.md`.
 
 ## Context
 

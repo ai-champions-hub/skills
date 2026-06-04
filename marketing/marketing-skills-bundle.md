@@ -47,6 +47,8 @@ This is a bundle, not a single skill. Install it once and the individual skills 
 
 ## How to install
 
+**Note:** This is an external package or integration, not a local one-file skill. Follow the install instructions below rather than copying it into `skills/`.
+
 ```bash
 npx skills add coreyhaines31/marketingskills
 ```

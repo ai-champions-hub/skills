@@ -1,18 +1,11 @@
+---
+name: write-spec-prd
+description: Write a PRD from a problem statement or feature idea. Use when scoping product features, defining success metrics, writing user stories, or creating acceptance criteria.
+---
+
 # Write Spec / PRD
 
 > Problem statement or feature idea → structured Product Requirements Document.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `write-spec-prd` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/write-spec-prd into this project.
-```
-
-**Manual install:** copy [`skills/write-spec-prd/SKILL.md`](../skills/write-spec-prd/SKILL.md) to `.cursor/skills/write-spec-prd/SKILL.md`.
 
 ## Context
 

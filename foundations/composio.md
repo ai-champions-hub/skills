@@ -16,6 +16,8 @@ This is especially powerful for non-developers who need AI to operate across the
 
 ## How to install
 
+**Note:** This is an external package or integration, not a local one-file skill. Follow the install instructions below rather than copying it into `skills/`.
+
 1. **Sign up** at [composio.dev](https://composio.dev)
 2. **Connect your tools** via the Composio dashboard (OAuth flow for each service)
 3. **Add the MCP server** to your agent:

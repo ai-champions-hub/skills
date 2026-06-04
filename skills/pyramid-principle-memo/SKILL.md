@@ -1,18 +1,11 @@
+---
+name: pyramid-principle-memo
+description: Write strategic memos using Barbara Minto's Pyramid Principle. Use when drafting executive memos, board notes, decision briefs, or strategy documents with conclusion-first structure.
+---
+
 # Pyramid Principle Memo Writer
 
 > Topic + key arguments → strategic memo structured using Barbara Minto's Pyramid Principle.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `pyramid-principle-memo` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/pyramid-principle-memo into this project.
-```
-
-**Manual install:** copy [`skills/pyramid-principle-memo/SKILL.md`](../skills/pyramid-principle-memo/SKILL.md) to `.cursor/skills/pyramid-principle-memo/SKILL.md`.
 
 ## Context
 

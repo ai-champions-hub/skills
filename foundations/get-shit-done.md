@@ -16,6 +16,8 @@ Long-running AI sessions degrade predictably. The more context an agent accumula
 
 ## How to install
 
+**Note:** This is an external package or integration, not a local one-file skill. Follow the install instructions below rather than copying it into `skills/`.
+
 ```bash
 npx @opengsd/get-shit-done-redux@latest
 ```

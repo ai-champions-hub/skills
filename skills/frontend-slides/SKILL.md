@@ -1,18 +1,11 @@
+---
+name: frontend-slides
+description: Create beautiful HTML/CSS presentation decks from topics, outlines, or source content. Use when generating slides, pitch decks, visual presentations, or converting deck ideas into a single HTML file.
+---
+
 # Frontend Slides
 
 > Topic or content → beautiful presentation slides as a single HTML file with zero dependencies.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `frontend-slides` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/frontend-slides into this project.
-```
-
-**Manual install:** copy [`skills/frontend-slides/SKILL.md`](../skills/frontend-slides/SKILL.md) to `.cursor/skills/frontend-slides/SKILL.md`.
 
 ## Context
 

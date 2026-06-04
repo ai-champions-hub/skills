@@ -1,18 +1,11 @@
+---
+name: prd-critique
+description: Critique existing PRDs against product-quality rubrics. Use when reviewing specs, pressure-testing requirements, finding missing metrics, or improving product documents before engineering handoff.
+---
+
 # PRD Critique
 
 > Existing PRD → structured feedback with specific issues, rubric scores, and next steps.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `prd-critique` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/prd-critique into this project.
-```
-
-**Manual install:** copy [`skills/prd-critique/SKILL.md`](../skills/prd-critique/SKILL.md) to `.cursor/skills/prd-critique/SKILL.md`.
 
 ## Context
 

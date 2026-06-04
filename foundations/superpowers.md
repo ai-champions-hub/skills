@@ -16,6 +16,8 @@ This is the mandatory first install for any serious AI-assisted workflow.
 
 ## How to install
 
+**Note:** This is an external package or integration, not a local one-file skill. Follow the install instructions below rather than copying it into `skills/`.
+
 **Cursor:**
 ```
 /add-plugin superpowers

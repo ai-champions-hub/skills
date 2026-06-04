@@ -1,18 +1,11 @@
+---
+name: figma-review
+description: Review Figma designs for spacing, contrast, layout, implementation risks, and missing states. Use when reviewing UI/UX designs, Figma files, design handoff, or posting structured feedback.
+---
+
 # Figma Design Review
 
 > Figma file URL → structured design review with feedback comments posted directly into Figma.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `figma-review` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/figma-review into this project.
-```
-
-**Manual install:** copy [`skills/figma-review/SKILL.md`](../skills/figma-review/SKILL.md) to `.cursor/skills/figma-review/SKILL.md`.
 
 ## Context
 

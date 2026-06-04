@@ -1,18 +1,11 @@
+---
+name: meeting-transcript-to-notes
+description: Convert raw meeting transcripts into structured notes with YAML frontmatter, action items, decisions, summaries, and preserved transcript sections. Use when processing meeting notes or transcripts.
+---
+
 # Meeting Transcript to Notes
 
 > Raw meeting transcript → structured notes with decisions, action items, and summary.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `meeting-transcript-to-notes` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/meeting-transcript-to-notes into this project.
-```
-
-**Manual install:** copy [`skills/meeting-transcript-to-notes/SKILL.md`](../skills/meeting-transcript-to-notes/SKILL.md) to `.cursor/skills/meeting-transcript-to-notes/SKILL.md`.
 
 ## Context
 

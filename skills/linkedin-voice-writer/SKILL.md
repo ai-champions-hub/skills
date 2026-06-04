@@ -1,18 +1,11 @@
+---
+name: linkedin-voice-writer
+description: Draft human-sounding LinkedIn posts, comments, and replies in a user voice. Use when creating LinkedIn content, extracting voice, selecting hook formulas, or removing AI tells.
+---
+
 # LinkedIn Voice Writer
 
 > Your past posts + a topic → human-sounding LinkedIn posts, comments, and replies in your authentic voice.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `linkedin-voice-writer` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/linkedin-voice-writer into this project.
-```
-
-**Manual install:** copy [`skills/linkedin-voice-writer/SKILL.md`](../skills/linkedin-voice-writer/SKILL.md) to `.cursor/skills/linkedin-voice-writer/SKILL.md`.
 
 ## Context
 

@@ -1,18 +1,11 @@
+---
+name: okr-coach
+description: Define, refine, check in on, align, and score OKRs. Use when writing quarterly goals, reviewing objectives and key results, or diagnosing vague and unmeasurable goals.
+---
+
 # OKR Coach
 
 > Draft or existing OKRs → critique, refinement, and lifecycle management.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `okr-coach` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/okr-coach into this project.
-```
-
-**Manual install:** copy [`skills/okr-coach/SKILL.md`](../skills/okr-coach/SKILL.md) to `.cursor/skills/okr-coach/SKILL.md`.
 
 ## Context
 

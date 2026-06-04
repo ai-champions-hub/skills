@@ -1,18 +1,11 @@
+---
+name: interview-coach
+description: Coach interview preparation with practice drills, transcript analysis, storybank management, and STAR/CAR scoring. Use when preparing for interviews, mock interviews, debriefs, or answer improvement.
+---
+
 # Interview Coach
 
 > Interview prep, transcript analysis, or practice drills → structured coaching with STAR/CAR scoring.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `interview-coach` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/interview-coach into this project.
-```
-
-**Manual install:** copy [`skills/interview-coach/SKILL.md`](../skills/interview-coach/SKILL.md) to `.cursor/skills/interview-coach/SKILL.md`.
 
 ## Context
 

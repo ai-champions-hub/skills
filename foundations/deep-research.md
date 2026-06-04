@@ -16,6 +16,8 @@ Great for market analysis, competitive intelligence, technology evaluations, and
 
 ## How to install
 
+**Note:** This is an external package or integration, not a local one-file skill. Follow the install instructions below rather than copying it into `skills/`.
+
 ```bash
 git clone https://github.com/199-biotechnologies/claude-deep-research-skill.git ~/.claude/skills/deep-research
 ```

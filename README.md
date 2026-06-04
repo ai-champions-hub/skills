@@ -4,124 +4,128 @@
   <img src="assets/banner.svg" alt="AI Champions Skill Library" width="100%">
 </p>
 
-**One file. One skill. Drop it into Cursor, Claude, or ChatGPT and go.**
+**Curated AI skills you can browse, install, and use in Cursor.**
 
-This repo is the open catalog of curated AI skills maintained by the [AI Champions](https://ai-champions-platform.vercel.app) community. Each skill is a self-contained `.md` file with instructions that turn a general-purpose AI into a specialist for a specific task.
+This repo has two surfaces:
+
+- **Browse:** category pages explain what each skill does, when to use it, examples, and sources.
+- **Install:** `skills/<skill-name>/SKILL.md` packages are Cursor-compatible skills with `name` and `description` frontmatter.
+
+Foundations such as Superpowers, GSD, Composio, Deep Research, Nuwa, and the Marketing Skills Bundle are external packages or integrations. They stay as install guides, not local one-file skills.
 
 ---
 
-## Quick start
+## Quick Start
 
-1. Browse the catalog below
-2. Open the `.md` file and copy its contents (or download the raw file)
-3. Paste into Cursor rules, Claude project instructions, or a ChatGPT custom GPT
+### Install with Cursor
 
-**Cursor** — save the `.md` file to your project's `.cursor/rules/` directory or `~/.cursor/rules/` for global access.
+Open Cursor in your project and ask:
 
-**Claude** — paste the contents into Project Knowledge or use it as a system prompt.
+```text
+Install the `write-spec-prd` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/write-spec-prd into this project.
+```
 
-**ChatGPT** — paste into Custom Instructions or as the first message in a conversation.
+Cursor should create:
+
+```text
+.cursor/skills/write-spec-prd/SKILL.md
+```
+
+See [INSTALL.md](INSTALL.md) for all install prompts and manual instructions.
+
+### Browse the Catalog
+
+Use the tables below if you want to understand what a skill does before installing it.
 
 ---
 
 ## Foundations
 
-Core frameworks and plugins that you install once. These underpin everything else — they change how the AI agent works, not just what it knows.
+Core frameworks and integrations that you install from their original projects.
 
-| Tool | What it does |
-|------|-------------|
-| [superpowers.md](foundations/superpowers.md) | Composable skill framework — enforces brainstorm → plan → execute → review |
-| [get-shit-done.md](foundations/get-shit-done.md) | Splits projects into plan/execute/review phases with fresh context windows |
-| [composio.md](foundations/composio.md) | MCP integration for 500+ external services (Gmail, Slack, Notion, etc.) |
-| [deep-research.md](foundations/deep-research.md) | 8-phase research pipeline with source credibility scoring |
-| [nuwa.md](foundations/nuwa.md) | Build virtual copies of experts — extract mental models into reusable skills |
+| Tool | What it does | Guide |
+|------|-------------|-------|
+| Superpowers | Composable skill framework — enforces brainstorm → plan → execute → review | [guide](foundations/superpowers.md) |
+| Get Shit Done | Splits projects into plan/execute/review phases with fresh context windows | [guide](foundations/get-shit-done.md) |
+| Composio | MCP integration for 500+ external services (Gmail, Slack, Notion, etc.) | [guide](foundations/composio.md) |
+| Deep Research | 8-phase research pipeline with source credibility scoring | [guide](foundations/deep-research.md) |
+| Nuwa | Build virtual copies of experts — extract mental models into reusable skills | [guide](foundations/nuwa.md) |
 
-## Skills
+## Installable Skills
 
 ### Product Management
 
-| Skill | What it does |
-|-------|-------------|
-| [write-spec-prd.md](product-management/write-spec-prd.md) | Problem statement → full PRD with goals, user stories, and acceptance criteria |
-| [prd-critique.md](product-management/prd-critique.md) | Existing PRD → structured feedback with rubric scores and specific fixes |
-| [okr-coach.md](product-management/okr-coach.md) | Draft or existing OKRs → critique, refinement, and lifecycle management |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| Write Spec / PRD | Problem statement → full PRD with goals, user stories, and acceptance criteria | [catalog](product-management/write-spec-prd.md) | [SKILL.md](skills/write-spec-prd/SKILL.md) |
+| PRD Critique | Existing PRD → structured feedback with rubric scores and specific fixes | [catalog](product-management/prd-critique.md) | [SKILL.md](skills/prd-critique/SKILL.md) |
+| OKR Coach | Draft or existing OKRs → critique, refinement, and lifecycle management | [catalog](product-management/okr-coach.md) | [SKILL.md](skills/okr-coach/SKILL.md) |
 
 ### Marketing
 
-| Skill | What it does |
-|-------|-------------|
-| [marketing-skills-bundle.md](marketing/marketing-skills-bundle.md) | 42-skill marketing toolkit: CRO, copywriting, SEO, ads, email, retention |
-| [linkedin-voice-writer.md](marketing/linkedin-voice-writer.md) | Your voice + a topic → human-sounding LinkedIn posts using proven hook formulas |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| LinkedIn Voice Writer | Your voice + a topic → human-sounding LinkedIn posts using proven hook formulas | [catalog](marketing/linkedin-voice-writer.md) | [SKILL.md](skills/linkedin-voice-writer/SKILL.md) |
 
 ### Productivity
 
-| Skill | What it does |
-|-------|-------------|
-| [stakeholder-update.md](productivity/stakeholder-update.md) | Working notes → polished stakeholder-ready status update |
-| [meeting-transcript-to-notes.md](productivity/meeting-transcript-to-notes.md) | Raw transcript → structured notes with decisions, action items, and summary |
-| [pyramid-principle-memo.md](productivity/pyramid-principle-memo.md) | Topic + arguments → strategic memo using Barbara Minto's Pyramid Principle |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| Stakeholder Update | Working notes → polished stakeholder-ready status update | [catalog](productivity/stakeholder-update.md) | [SKILL.md](skills/stakeholder-update/SKILL.md) |
+| Meeting Transcript to Notes | Raw transcript → structured notes with decisions, action items, and summary | [catalog](productivity/meeting-transcript-to-notes.md) | [SKILL.md](skills/meeting-transcript-to-notes/SKILL.md) |
+| Pyramid Principle Memo | Topic + arguments → strategic memo using Barbara Minto's Pyramid Principle | [catalog](productivity/pyramid-principle-memo.md) | [SKILL.md](skills/pyramid-principle-memo/SKILL.md) |
 
 ### Presentations
 
-| Skill | What it does |
-|-------|-------------|
-| [frontend-slides.md](presentations/frontend-slides.md) | Topic or content → beautiful slide deck as a single HTML file |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| Frontend Slides | Topic or content → beautiful slide deck as a single HTML file | [catalog](presentations/frontend-slides.md) | [SKILL.md](skills/frontend-slides/SKILL.md) |
 
 ### Leadership
 
-| Skill | What it does |
-|-------|-------------|
-| [decision-stress-test.md](leadership/decision-stress-test.md) | Decision or idea → rigorous challenge against cognitive biases |
-| [interview-coach.md](leadership/interview-coach.md) | Interview prep, transcript analysis, and practice drills with STAR/CAR scoring |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| Decision Stress-Test | Decision or idea → rigorous challenge against cognitive biases | [catalog](leadership/decision-stress-test.md) | [SKILL.md](skills/decision-stress-test/SKILL.md) |
+| Interview Coach | Interview prep, transcript analysis, and practice drills with STAR/CAR scoring | [catalog](leadership/interview-coach.md) | [SKILL.md](skills/interview-coach/SKILL.md) |
 
 ### Design
 
-| Skill | What it does |
-|-------|-------------|
-| [figma-review.md](design/figma-review.md) | Figma file → structured design review with comments posted directly into Figma |
+| Skill | What it does | Browse | Installable package |
+|-------|-------------|--------|---------------------|
+| Figma Review | Figma file → structured design review with comments posted directly into Figma | [catalog](design/figma-review.md) | [SKILL.md](skills/figma-review/SKILL.md) |
+
+## External Bundles
+
+| Bundle | What it does | Guide |
+|--------|-------------|-------|
+| Marketing Skills Bundle | 42-skill marketing toolkit: CRO, copywriting, SEO, ads, email, retention | [guide](marketing/marketing-skills-bundle.md) |
 
 ---
 
-## Extended resources
+## Extended Resources
 
-Looking for more skills beyond this catalog? See **[RESOURCES.md](RESOURCES.md)** — a curated list of 30+ external repositories and aggregators organized by domain (PM, marketing, knowledge work, sales, finance, and more).
+Looking for more skills beyond this catalog? See [RESOURCES.md](RESOURCES.md) — a curated list of 30+ external repositories and aggregators organized by domain.
 
 ---
 
-## Skill format
+## Skill Format
 
-Every skill follows a consistent structure (see [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md)):
+Installable skills live at `skills/<skill-name>/SKILL.md` and start with YAML frontmatter:
 
+```markdown
+---
+name: write-spec-prd
+description: Write a PRD from a problem statement or feature idea. Use when scoping product features, defining success metrics, writing user stories, or creating acceptance criteria.
+---
 ```
-# Skill name
-> One-line description of what it does
 
-## Context
-When and why you'd use this skill.
-
-## Instructions
-Step-by-step instructions for the AI.
-
-## Example
-A concrete input/output example.
-
-## Source
-Link to the original source.
-```
+See [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) for the full template.
 
 ---
 
 ## Contributing
 
 We welcome new skills from the community. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
-**TL;DR:**
-
-1. Fork this repo
-2. Copy `SKILL_TEMPLATE.md` into the right category folder
-3. Rename it using `kebab-case.md`
-4. Fill in the template
-5. Open a PR
 
 ---
 

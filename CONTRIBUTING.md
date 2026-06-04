@@ -1,59 +1,97 @@
-# Contributing a skill
+# Contributing a Skill
 
-Thanks for contributing to the AI Champions Skill Library! Every skill you add helps the whole community work smarter.
+Thanks for contributing to the AI Champions Skill Library. Every useful skill makes the community's AI workflows easier to reuse.
 
-## Before you start
+## Before You Start
 
-- Check the [catalog](README.md#skills) to make sure a similar skill doesn't already exist.
-- One `.md` file = one skill. Keep it focused on a single task.
+- Check the [catalog](README.md#installable-skills) to make sure a similar skill does not already exist.
+- Decide whether you're adding an installable one-file skill or an external tool guide.
 
-## Step by step
+## Repository Model
 
-1. **Fork** this repository.
-2. **Copy** `SKILL_TEMPLATE.md` into the category folder that fits best:
-   - `foundations/` — core frameworks and plugins (install-once tools, not prompts)
+This repo has two surfaces:
+
+- **Installable skills:** `skills/<skill-name>/SKILL.md`
+- **Catalog pages:** category folders such as `product-management/`, `marketing/`, `productivity/`, `leadership/`, and `design/`
+
+If your contribution is a true one-file skill, add both surfaces. If it is a full external package, MCP integration, plugin, or bundle with its own installer, add it as a catalog guide instead.
+
+## Add an Installable Skill
+
+1. Fork this repository.
+2. Create a package directory:
+
+```text
+skills/<skill-name>/SKILL.md
+```
+
+3. Start `SKILL.md` with YAML frontmatter:
+
+```markdown
+---
+name: skill-name
+description: Specific third-person description. Include what it does and when to use it.
+---
+```
+
+4. Fill in the body using [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md).
+5. Add a matching catalog page in the closest category folder:
    - `product-management/` — PRDs, OKRs, roadmaps, discovery, prioritization
    - `marketing/` — campaigns, copy, SEO, analytics, personal brand
    - `productivity/` — meetings, memos, updates, planning, note-taking
    - `presentations/` — slide decks, visual storytelling, pitch materials
    - `leadership/` — strategy, decisions, coaching, hiring, team management
    - `design/` — UI/UX review, design systems, Figma workflows
-   - Not sure? Pick the closest one — we can always move it in review.
-3. **Rename** the file using `kebab-case.md` (e.g., `weekly-report-writer.md`).
-4. **Fill in** every section of the template. Delete the placeholder comments.
-5. **Add a Source section** at the bottom if the skill is based on an external source:
-   ```markdown
-   ---
+6. Add an `Install` section to the catalog page that points to the package.
+7. Add source attribution at the bottom if based on external work:
 
-   ## Source
+```markdown
+---
 
-   Initial raw source: [repo-name](https://github.com/...)
-   ```
-6. **Test** the skill in at least one tool (Cursor, Claude, or ChatGPT) before submitting.
-7. **Open a Pull Request** with:
-   - A short title: `Add skill: your-skill-name`
-   - A one-line description of what the skill does
+## Source
 
-## File naming
+Initial raw source: [repo-name](https://github.com/...)
+```
 
-- Use lowercase `kebab-case`: `meeting-notes-to-memo.md`
-- Keep it short but descriptive
-- No spaces, no underscores
+## Add an External Tool or Bundle
 
-## Quality checklist
+Use a catalog guide instead of `skills/` when the source is:
 
-Before submitting, make sure your skill:
+- A plugin with its own installation command
+- A multi-skill bundle
+- An MCP integration
+- A repository that depends on scripts, subdirectories, or runtime-specific setup
 
-- [ ] Has a clear one-line description (input → output format)
+For these, include:
+
+- What it does
+- Why it matters
+- How to install
+- Key commands or features
+- Source link
+
+## File Naming
+
+- Use lowercase `kebab-case`: `meeting-transcript-to-notes`
+- Directory name and frontmatter `name` must match
+- No spaces or underscores
+
+## Quality Checklist
+
+Before submitting, make sure your contribution:
+
+- [ ] Uses `skills/<skill-name>/SKILL.md` for installable skills
+- [ ] Has YAML frontmatter with `name` and `description`
+- [ ] Uses a specific description with trigger scenarios
 - [ ] Includes step-by-step instructions for the AI
 - [ ] Has at least one concrete example (input → output)
-- [ ] Works when pasted directly into Cursor, Claude, or ChatGPT
-- [ ] Doesn't duplicate an existing skill
 - [ ] Includes a Source section if based on external work
+- [ ] Has a matching catalog page with install instructions
+- [ ] Does not present external packages as local one-file skills
 
-## Review process
+## Review Process
 
-A maintainer will review your PR, usually within a few days. We may suggest edits to improve clarity or consistency. Once approved, your skill goes live in the catalog.
+A maintainer will review your PR, usually within a few days. We may suggest edits to improve clarity, installability, or consistency. Once approved, your skill goes live in the catalog.
 
 ---
 

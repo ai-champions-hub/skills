@@ -1,18 +1,11 @@
+---
+name: stakeholder-update
+description: Generate stakeholder-ready status updates from working notes. Use when writing weekly updates, monthly updates, launch announcements, or risk escalations for executives or cross-functional teams.
+---
+
 # Stakeholder Update
 
 > Working notes + context → polished stakeholder-ready status update.
-
-## Install
-
-**Cursor agent install:**
-
-Ask Cursor:
-
-```text
-Install the `stakeholder-update` skill from https://github.com/ai-champions-hub/skills/tree/main/skills/stakeholder-update into this project.
-```
-
-**Manual install:** copy [`skills/stakeholder-update/SKILL.md`](../skills/stakeholder-update/SKILL.md) to `.cursor/skills/stakeholder-update/SKILL.md`.
 
 ## Context
 
